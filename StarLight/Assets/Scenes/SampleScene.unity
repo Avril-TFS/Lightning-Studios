@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 352214129}
   - component: {fileID: 352214130}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Moon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -193,7 +193,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 40c6b12207a2f7b4d89cebd87c303801, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -298,7 +298,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1127425224}
   - component: {fileID: 1127425225}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Nebula 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -358,7 +358,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 26634c500603917408e265331ca4f2e2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -380,7 +380,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1311847618}
   - component: {fileID: 1311847619}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Space
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -484,10 +484,10 @@ MonoBehaviour:
   hazard: {fileID: 2139343768398889647, guid: 9b715185a5f49ee4eb8c9223f03e89dd, type: 3}
   hazard2: {fileID: 3800659944784501146, guid: c8e92503be0811d42a6d6aa070a14239, type: 3}
   spawnValue: {x: 8, y: 4}
-  hazardCount: 2
+  hazardCount: 1
   startWait: 1
   spawnWait: 0
-  hazard2Wait: 2
+  hazard2Wait: 1
   waveWait: 0
 --- !u!4 &1474875276
 Transform:
@@ -629,7 +629,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 394b5b0edcab9644e883ef25893924dd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -758,7 +758,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1994743064}
   - component: {fileID: 1994743065}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Earth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -840,7 +840,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2095037878}
   - component: {fileID: 2095037879}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Nebula 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -900,7 +900,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: d7cd3cce2fc5c084eb7dab8f4c559963, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
