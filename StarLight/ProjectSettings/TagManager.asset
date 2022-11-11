@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Projectile
+  - Hazard
+  - Alien
   layers:
   - Default
   - TransparentFX
@@ -12,8 +14,8 @@ TagManager:
   - Background
   - Water
   - UI
-  - 
-  - 
+  - Player
+  - Hazards
   - 
   - 
   - 

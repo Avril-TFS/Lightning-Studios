@@ -14,10 +14,11 @@ GameObject:
   - component: {fileID: 2139343768398889651}
   - component: {fileID: 2139343768398889644}
   - component: {fileID: 2139343768398889645}
-  - component: {fileID: 2139343768398889646}
-  m_Layer: 0
+  - component: {fileID: 7148790832930788032}
+  - component: {fileID: -7319377140820981657}
+  m_Layer: 7
   m_Name: Asteroid 1
-  m_TagString: Untagged
+  m_TagString: Hazard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77,7 +78,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: ee8261317c1ff734daa9da91d24312b3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -156,7 +157,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &2139343768398889646
+--- !u!114 &7148790832930788032
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -165,7 +166,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 2139343768398889647}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffb55858129139644a971a4eb7b78d7c, type: 3}
+  m_Script: {fileID: 11500000, guid: 9eacca85694535147a92c1f0a314b820, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosion: {fileID: 100002, guid: cafecd3fc3b761c45bb1553f35cf5c96, type: 3}
+--- !u!114 &-7319377140820981657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2139343768398889647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1280eaef583c325448583d40e0b09d5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosion: {fileID: 100002, guid: 8bb005a053990434681ca6aa03d9e363, type: 3}

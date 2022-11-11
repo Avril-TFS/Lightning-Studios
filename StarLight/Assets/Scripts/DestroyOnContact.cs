@@ -20,7 +20,7 @@ public class DestroyOnContact : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D other)
     {
         Instantiate(explosion, transform.position, transform.rotation);       
-        Destroy(other.gameObject);
-        Destroy(this.gameObject); 
+       // Destroy(other.gameObject);
+      //  Destroy(this.gameObject); 
     }
 }

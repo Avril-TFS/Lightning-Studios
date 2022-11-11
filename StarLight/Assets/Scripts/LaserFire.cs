@@ -7,15 +7,8 @@ public class LaserFire : MonoBehaviour
     public GameObject laserPrefab;
     public Transform triggerPoint;
 
-    public float force = 2 - .0f; 
+    public float force = 5 - .0f;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
