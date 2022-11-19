@@ -15,7 +15,8 @@ public class LaserFire : MonoBehaviour
         {
             GameObject laser = Instantiate(laserPrefab, triggerPoint.position, triggerPoint.rotation);
             Rigidbody2D rBody = laser.GetComponent<Rigidbody2D>();
-            rBody.AddForce(triggerPoint.up * force, ForceMode2D.Impulse); 
+            rBody.AddForce(triggerPoint.up * force, ForceMode2D.Impulse);
+            GetComponent<AudioSource>().Play();
         }
     }
 }
