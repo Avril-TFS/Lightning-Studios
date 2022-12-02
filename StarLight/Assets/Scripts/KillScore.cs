@@ -11,6 +11,8 @@ public class KillScore : MonoBehaviour
 
     public string nextLevel;
 
+    public GameObject levelCompleteUI; 
+
     public void Kill()
     {
         enemies--;
@@ -18,8 +20,15 @@ public class KillScore : MonoBehaviour
         
         if(enemies == 0)
         {
-            LoadScene();
+            StartCoroutine(SplashScreen()); 
         }
+    }
+    
+    IEnumerator SplashScreen()
+    {
+        levelCompleteUI.SetActive(true);
+        yield return new WaitForSecondsRealtime(5);
+        LoadScene();
     }
 
     public void SubEnemies()
