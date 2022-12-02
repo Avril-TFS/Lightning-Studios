@@ -18,4 +18,10 @@ public class MenuController : MonoBehaviour
         Application.Quit(); 
 #endif
     }
+
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
+    }
 }

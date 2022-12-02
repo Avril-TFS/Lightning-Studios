@@ -15,6 +15,8 @@ public class playercontrols : MonoBehaviour
 
     public Text GameOver;
     public string Loss;
+    public GameObject UIPanel;
+
 
     void Start()
     {
@@ -83,7 +85,8 @@ public class playercontrols : MonoBehaviour
 
     void Stop()
     {
-       // rg2d.velocity = new Vector2(0, 0);
+        // rg2d.velocity = new Vector2(0, 0);
+        UIPanel.SetActive(true);
         transform.position = new Vector2(99, 0);
         Destroy(this.gameObject);
     }
