@@ -6,22 +6,22 @@ public class screenWrap : MonoBehaviour
 {
     void Update()
     {
-        if (transform.position.x > 11)
+        if (transform.position.x > 12.6)
         {
-            transform.position = new Vector3(-11, transform.position.y, 0);
+            transform.position = new Vector3(-12, transform.position.y, 0);
         }
         
-        else if(transform.position.x < -11)
+        else if(transform.position.x < -12.6)
         {
-            transform.position = new Vector3(11, transform.position.y, 0);
+            transform.position = new Vector3(12, transform.position.y, 0);
         }
-        else if ( transform.position.y > 6)
+        else if ( transform.position.y > 5.5)
         {
-            transform.position = new Vector3 (transform.position.x, -6, 0);
+            transform.position = new Vector3 (transform.position.x, -5, 0);
         }
-        else if (transform.position.y < -6)
+        else if (transform.position.y < -5.5)
         {
-            transform.position = new Vector3(transform.position.x, 6, 0);
+            transform.position = new Vector3(transform.position.x, 5, 0);
         }
     }
 }

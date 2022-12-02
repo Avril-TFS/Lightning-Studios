@@ -25,6 +25,7 @@ public class DestroyAlien : MonoBehaviour
         if (coll.collider.CompareTag("Player"))
         {
             Instantiate(explosion, transform.position, transform.rotation);
+            Destroy(this.gameObject);
         }
     }
     

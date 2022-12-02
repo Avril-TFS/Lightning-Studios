@@ -258,6 +258,7 @@ MonoBehaviour:
   EnemyText: {fileID: 0}
   enemies: 3
   nextLevel: Level_2
+  levelCompleteUI: {fileID: 0}
 --- !u!114 &31532143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -422,6 +423,63 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &323948856
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2474828632883756874, guid: e37fd22d4749014459bfd44dd7b05d5c, type: 3}
+      propertyPath: m_Name
+      value: Boundry
+      objectReference: {fileID: 0}
+    - target: {fileID: 2474828632883756919, guid: e37fd22d4749014459bfd44dd7b05d5c, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2474828632883756919, guid: e37fd22d4749014459bfd44dd7b05d5c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2474828632883756919, guid: e37fd22d4749014459bfd44dd7b05d5c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2474828632883756919, guid: e37fd22d4749014459bfd44dd7b05d5c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2474828632883756919, guid: e37fd22d4749014459bfd44dd7b05d5c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2474828632883756919, guid: e37fd22d4749014459bfd44dd7b05d5c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2474828632883756919, guid: e37fd22d4749014459bfd44dd7b05d5c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2474828632883756919, guid: e37fd22d4749014459bfd44dd7b05d5c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2474828632883756919, guid: e37fd22d4749014459bfd44dd7b05d5c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2474828632883756919, guid: e37fd22d4749014459bfd44dd7b05d5c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2474828632883756919, guid: e37fd22d4749014459bfd44dd7b05d5c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e37fd22d4749014459bfd44dd7b05d5c, type: 3}
 --- !u!1 &435103747
 GameObject:
   m_ObjectHideFlags: 0
@@ -843,7 +901,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 8297a2bf97dbbba468bd2518d003a876, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
@@ -873,7 +931,7 @@ MonoBehaviour:
 
 
 
-    Kiru Varathanathan
+    Kiruthika Varathanathan
 
 
 
@@ -885,14 +943,14 @@ MonoBehaviour:
 
 
 
-    Changqing Li
+    Changqing
+    Li
 
 
 
 
 
-    and,
-    Fanchu Di
+    and, Fanchu Di
 
 
 
