@@ -6,14 +6,14 @@ public class screenWrap : MonoBehaviour
 {
     void Update()
     {
-        if (transform.position.x > 12.6)
+        if (transform.position.x > 11)
         {
-            transform.position = new Vector3(-12, transform.position.y, 0);
+            transform.position = new Vector3(-11, transform.position.y, 0);
         }
         
-        else if(transform.position.x < -12.6)
+        else if(transform.position.x < -11)
         {
-            transform.position = new Vector3(12, transform.position.y, 0);
+            transform.position = new Vector3(11, transform.position.y, 0);
         }
         else if ( transform.position.y > 5.5)
         {

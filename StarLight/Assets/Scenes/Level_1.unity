@@ -1284,6 +1284,22 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 6786470149526563513, guid: e217afecac451c947a2fcc0b11bbf658, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 170.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 6786470149526563513, guid: e217afecac451c947a2fcc0b11bbf658, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 105.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6786470149526563513, guid: e217afecac451c947a2fcc0b11bbf658, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -80.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 6786470149526563513, guid: e217afecac451c947a2fcc0b11bbf658, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 21.91
+      objectReference: {fileID: 0}
     - target: {fileID: 7799870499572604729, guid: e217afecac451c947a2fcc0b11bbf658, type: 3}
       propertyPath: m_Name
       value: LevelComplete

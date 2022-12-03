@@ -20,6 +20,7 @@ public class KillScore : MonoBehaviour
         
         if(enemies == 0)
         {
+            Time.timeScale = 0;
             StartCoroutine(SplashScreen()); 
         }
     }
@@ -28,6 +29,7 @@ public class KillScore : MonoBehaviour
     {
         levelCompleteUI.SetActive(true);
         yield return new WaitForSecondsRealtime(5);
+        Time.timeScale = 1;
         LoadScene();
     }
 
